@@ -10,7 +10,9 @@ const Modals = lazy(() => import('../pages/Modals'))
 const Tables = lazy(() => import('../pages/Tables'))
 const Page404 = lazy(() => import('../pages/404'))
 const Blank = lazy(() => import('../pages/Blank'))
-
+const Inicio = lazy(() => import('../pages/Inicio'))
+const Cursos = lazy(() => import('../pages/Cursos'))
+const CargaAcademica = lazy(() => import('../pages/CargaAcademica'))
 /**
  * ⚠ These are internal routes!
  * They will be rendered inside the app, using the default `containers/Layout`.
@@ -57,6 +59,18 @@ const routes = [
   {
     path: '/blank',
     component: Blank,
+  },
+  {
+    path: '/inicio',
+    component: Inicio,
+  },
+  {
+    path: '/Cursos',
+    component: Cursos,
+  },
+  {
+    path: '/CargaAcademica',
+    component: CargaAcademica,
   },
 ]
 
